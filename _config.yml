@@ -1,4 +1,4 @@
-# Site settings 配置站点
+# Site settings
 title: 'your awesome title'
 description: 'your web description'
 keywords: 'your web keywords, another keywords'
@@ -6,13 +6,13 @@ url: 'https://abc.github.io' # your host
 
 # nav 中文字符空格：&emsp;
 nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
-  首页: '/'
-  标签: '/tags.html'
-  时间线: '/timeline.html'
-  关于博主: '/about.html'
-  友情链接: '/friendLink.html'
+  Home: '/'
+  Tag: '/tags.html'
+  Timeline : '/timeline.html'
+  About Me : '/about.html'
+  Friend Link : '/friendLink.html'
 
-# 博主
+# Home
 author: true
 name: 'your awesome name'
 NickName: 'your awesome nickname'
@@ -25,22 +25,12 @@ portraits: '/assets/profile.jpeg' # your portraits image file path
 # SNS
 SNS: true
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
-  mail: 'mailto:abc@gmail.com'
-  weixin: '' # 你的微信二维码存放的地址
-  qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
-  github: ''
-  Codepen: ''
-  weibo: ''
+  mail: 'Theresahualiao@gmail.com'
+  github: 'https://github.com/TheresaLiao'
   instagram: ''
   Twitter: ''
-  Dribbble: ''
   Facebook: ''
-  Google: ''
-  zhihu: ''
-  juejin: ''
-  twitch: ''
-
-# 分页
+# subpage
 paginate: 2
 paginatepath: ['page:num']
 
@@ -57,7 +47,7 @@ highlighter: rouge
 # 代码高亮主题使用pygments主题: autumn\ default\ emacs\ friendly\ manni\ murphy\ pastie\ perldoc\ tango 任选一个你喜欢的主题名称填在下面的单引号中
 pygmentsTheme: 'default'
 
-# 友情链接
+# friendsLink
 friends:
   jekyll: 'https://www.jekyll.com.cn/'
 
