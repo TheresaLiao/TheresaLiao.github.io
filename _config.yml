@@ -66,7 +66,7 @@ client_secret: ''  # 注册 OAuth Application 后获得的 client_secret
 
 # Share : weibo, qq, wechat, tencent, douban, qzone, linkedin, diandian, facebook, twitter, google
 social-share: true
-social-share-items: ['twitter', 'facebook', 'linkedin', 'google']
+social-share-items: ['twitter', 'facebook', 'linkedin']
 
 # baidu anaysis
 baidu: false
