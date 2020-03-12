@@ -1,8 +1,8 @@
 # Site settings
-title: 'your awesome title'
-description: 'your web description'
-keywords: 'your web keywords, another keywords'
-url: 'https://abc.github.io' # your host
+title: 'Theresa Book'
+description: 'Because I only have one brain,so I need to record all the thing'
+keywords: 'Theresa Liao'
+url: 'https://theresaliao.github.io/' # your host
 
 # nav 中文字符空格：&emsp;
 nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
@@ -14,13 +14,13 @@ nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
 
 # Home
 author: true
-name: 'your awesome name'
-NickName: 'your awesome nickname'
-webtitle: 'your awesome webtitle'
-bio: 'your awesome bio'
+name: 'Theresa Liao'
+NickName: 'Theresa'
+webtitle: 'Theresa webtitle'
+bio: 'Hello~'
 about: true
-aboutyou: 'your introduction'
-portraits: '/assets/profile.jpeg' # your portraits image file path
+aboutyou: 'because lazy,so coding'
+portraits: '/assets/profile.jpg' # your portraits image file path
 
 # SNS
 SNS: true
@@ -28,7 +28,6 @@ SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagr
   mail: 'Theresahualiao@gmail.com'
   github: 'https://github.com/TheresaLiao'
   instagram: ''
-  Twitter: ''
   Facebook: ''
 # subpage
 paginate: 2
