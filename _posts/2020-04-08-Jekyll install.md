@@ -36,5 +36,20 @@ $ bundle exec jekyll serve
 * browser
 ![](https://i.imgur.com/h1SrOmV.png)
 
+## create hello world file
+* create file ``index.html``
+```
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+  </body>
+</html>
+```
+
 ## reference
 http://xareelee.github.io/tech_note/2015/07/23/%E4%BD%BF%E7%94%A8-GitHub-Pages-%E5%92%8C-Jekyll-%E4%BE%86%E5%BB%BA%E7%AB%8B-Blog.html
