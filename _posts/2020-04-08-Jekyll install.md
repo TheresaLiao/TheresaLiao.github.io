@@ -16,6 +16,7 @@ $ sudo apt install curl g++, gcc, autoconf, automake, bison, libc6-dev, libffi-d
 $ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 $ curl -sSL https://get.rvm.io | bash -s stable
 $ source /usr/local/rvm/scripts/rvm
+$ echo "source /usr/local/rvm/scripts/rvm" >> ~/.bash_profile
 $ rvm install 2.5.1
 $ rvm use 2.5.1 --default
 $ ruby -v
