@@ -7,30 +7,36 @@
 * [Ruby](https://www.ruby-lang.org/en/documentation/installation/#apt) [2.5.1+](https://www.ruby-lang.org/en/downloads/)
 * [RubyGems]( https://github.com/rubygems/rubygems)
 
+
+## Install Ruby by RVM
+https://rvm.io/rvm/install
 ```shell=
-$ tar -zxf ruby-2.5.8.tar.gz
-$ cd ruby-2.5.8.tar
-$ ./configure --prefix=/usr
-$ make
-$ make install
+$ sudo apt update
+$ sudo apt install curl g++, gcc, autoconf, automake, bison, libc6-dev, libffi-dev, libgdbm-dev, libncurses5-dev, libsqlite3-dev, libtool, libyaml-dev, make, pkg-config, sqlite3, zlib1g-dev, libgmp-dev, libreadline-dev, libssl-dev
+$ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+$ curl -sSL https://get.rvm.io | bash -s stable
+$ source /usr/local/rvm/scripts/rvm
+$ rvm install 2.5.1
+$ rvm use 2.5.1 --default
+$ ruby -v
 ```
-
-
+## Install jekll
 ```shell=
-## Ruby
-$ sudo apt-get install ruby-full
-## RubyGems
-$ gem install nokogiri
-$ gem install jekyll bundler
+gem install jekyll bundler
+```
+## create web
+```shell=
+$ mkdir jekyll
+$ cd jekyll
+$ jekyll new myblog
+$ cd myblog
+$ bundle exec jekyll serve
+```
+* browser
+![](https://i.imgur.com/h1SrOmV.png)
 
-$ sudo apt-get install ruby-full build-essential zlib1g-dev
-$ echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
-$ echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
-$ echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
-$ source ~/.bashrc
-
-$ gem install jekyll bundler
-
+## old version
+```shell=
 $ cd ${PROJECT}
 $ jekyll new myblog
 $ cd myblog
