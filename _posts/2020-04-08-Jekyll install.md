@@ -4,8 +4,15 @@
 
 * [Jekyll](https://jekyllrb.com/docs/installation/)
 * [Rbenv](https://github.com/rbenv/rbenv)
-* [Ruby](https://www.ruby-lang.org/en/documentation/installation/#apt) 2.5.1+
+* [Ruby](https://www.ruby-lang.org/en/documentation/installation/#apt) [2.5.1+](https://www.ruby-lang.org/en/downloads/)
 * [RubyGems]( https://github.com/rubygems/rubygems)
+
+```shell=
+$ tar -zxf ruby-2.5.8.tar.gz
+$ cd ruby-2.5.8.tar
+$ ./configure --prefix=/usr
+$ make
+```
 
 
 ```shell=
