@@ -12,6 +12,7 @@ $ tar -zxf ruby-2.5.8.tar.gz
 $ cd ruby-2.5.8.tar
 $ ./configure --prefix=/usr
 $ make
+$ make install
 ```
 
 
